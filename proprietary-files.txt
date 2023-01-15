@@ -111,7 +111,7 @@ vendor/lib64/libbluetooth_audio_session_mediatek.so
 # Boot
 vendor/bin/hw/android.hardware.boot@1.2-service
 vendor/etc/init/android.hardware.boot@1.2-service.rc
-vendor/etc/vintf/manifest/android.hardware.boot@1.2.xml
+-vendor/etc/vintf/manifest/android.hardware.boot@1.2.xml
 
 # Camera configs
 vendor/etc/camera/cal.bin
@@ -122,7 +122,7 @@ vendor/etc/camera/parameter_3rd_arcsoft.xml
 # CAS
 vendor/bin/hw/android.hardware.cas@1.2-service-lazy
 vendor/etc/init/android.hardware.cas@1.2-service-lazy.rc
-vendor/etc/vintf/manifest/android.hardware.cas@1.2-service-lazy.xml
+-vendor/etc/vintf/manifest/android.hardware.cas@1.2-service-lazy.xml
 
 # Display
 vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek
@@ -258,8 +258,8 @@ vendor/bin/hw/android.hardware.drm@1.4-service.clearkey
 vendor/bin/hw/android.hardware.drm@1.4-service.widevine
 vendor/etc/init/android.hardware.drm@1.4-service.clearkey.rc
 vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc
-vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.clearkey.xml
-vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml
+-vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.clearkey.xml
+-vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml
 vendor/lib/mediacas/libclearkeycasplugin.so
 vendor/lib/mediadrm/libdrmclearkeyplugin.so
 vendor/lib/mediadrm/libmockdrmcryptoplugin.so
@@ -276,7 +276,7 @@ vendor/lib64/libwvhidl.so
 # Fingerprint
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
-vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service.xml
+-vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service.xml
 vendor/lib64/hw/fingerprint.egis.default.so
 vendor/lib64/vendor.egistec.hardware.fingerprint@4.0.so
 
@@ -445,7 +445,7 @@ vendor/lib64/hw/android.hardware.thermal@2.0-impl.so
 # USB
 vendor/bin/hw/android.hardware.usb@1.2-service-mediatekv2
 vendor/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc
-vendor/etc/vintf/manifest/android.hardware.usb@1.2-service-mediatekv2.xml
+-vendor/etc/vintf/manifest/android.hardware.usb@1.2-service-mediatekv2.xml
 
 # Vibrator
 vendor/bin/hw/android.hardware.vibrator-service.mediatek
@@ -471,17 +471,19 @@ vendor/etc/wifi/p2p_supplicant_overlay.conf
 vendor/etc/wifi/wpa_supplicant.conf
 vendor/etc/wifi/wpa_supplicant_overlay.conf
 
+# odm
+-odm/etc/vintf/et528_factory_manifest.xml
+-odm/etc/vintf/fpsensor_factory_manifest.xml
+-odm/etc/vintf/manifest_dsds.xml
+-odm/etc/vintf/manifest_nfc_dsds.xml
+-odm/etc/vintf/manifest_nfc_ss.xml
+-odm/etc/vintf/manifest_nonfc_dsds.xml
+-odm/etc/vintf/manifest_nonfc_ss.xml
+-odm/etc/vintf/manifest_qsqs.xml
+-odm/etc/vintf/manifest_ss.xml
+-odm/etc/vintf/manifest_tsts.xml
+
 # Miscellaneous
-odm/etc/vintf/et528_factory_manifest.xml
-odm/etc/vintf/fpsensor_factory_manifest.xml
-odm/etc/vintf/manifest_dsds.xml
-odm/etc/vintf/manifest_nfc_dsds.xml
-odm/etc/vintf/manifest_nfc_ss.xml
-odm/etc/vintf/manifest_nonfc_dsds.xml
-odm/etc/vintf/manifest_nonfc_ss.xml
-odm/etc/vintf/manifest_qsqs.xml
-odm/etc/vintf/manifest_ss.xml
-odm/etc/vintf/manifest_tsts.xml
 vendor/app/GoogleNetworkStackResOverlay/GoogleNetworkStackResOverlay.apk
 vendor/app/GoogleTetheringResOverlay/GoogleTetheringResOverlay.apk
 vendor/app/InProcessTetheringResOverlay/InProcessTetheringResOverlay.apk
